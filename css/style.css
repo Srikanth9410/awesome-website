@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    background: #1F2937;
+    gap: 80px;
+    justify-content: center;
+}
+.main div{
+    color: white;
+}
+
+.second { 
+    display: flex;
+    height:auto;
+    background: #1F2937;
+    color: #F9FAF8;
+}
+.second img{
+    width: 600px;
+    height: auto;
+}
+.third {
+    display: flex;
+    margin: auto;
+    width: 600px;
+    height: 200px;
+    padding: 16px;
+    justify-content: center;
+    gap: 50px;
+} 
+.logo img {
+    width: 20px;
+    height: auto;
+}
+.second sub{
+    display: inline-table;
+}
+
+.third img{
+    width: 150px;
+    height: 150px;
+}
+.second h1{
+    font-size: 48px;
+    
+}
+.second sub{
+    font-size: 18px;
+}
+.third figcaption{
+    display: inherit;
+}
+.second button{
+    background: #3882f6;
+    display: block;
+    color: white;
+}
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+}
+.quote h1{
+    font-style: italic;
+    font-size: 36px;
+}
+.footer {
+    
+    height: 100px;
+    background: white;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    
+}
+.sign{
+    background: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footer button{
+    background: #3882f6;
+    color: #F9FAF8;
+    border: 20px darkgreen;
+    padding: 2px;
+}
+
+
+
+
+
+.navigation_header {
+    display: flex;
+    height: 60px;
+    background-color: #1F2937;
+}
+
+.navigation_logo {
+    flex-grow: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation_options {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation_options {
+    flex-grow: 7;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #F9FAF8;
+}
+
+.logo_text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+a {
+    color: #F9FAF8;
+}
